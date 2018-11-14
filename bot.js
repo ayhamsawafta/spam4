@@ -2,10 +2,10 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('message', message => {
-if (message.content === '!start') {
+if (message.content === '!start3') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 1000000; x++) {
+      for(let x = 0; x < 1000; x++) {
         message.channel.send(`i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits i need credits`)
           .then(m => {
             count++;
